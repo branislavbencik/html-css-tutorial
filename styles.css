@@ -1,0 +1,130 @@
+* {
+  font-family: Montserrat, sans-serif;
+
+  /* minimal css reset */
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6rem;
+  color: #333;
+}
+
+a {
+  color: #5AC18E;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+#app {
+  width: 1100px;
+  margin: 64px auto;
+}
+
+.content-wrapper {
+  display: flex;
+}
+
+
+.blog-name {
+  margin-bottom: 64px;;
+  text-align: center;
+  font: 24px bold Raleway, sans-serif;
+}
+
+.author {
+  width: 186px;
+  position: fixed;
+}
+
+.author-image {
+  width: 128px;
+  height: 128px;
+  margin-bottom: 32px;
+  border-radius: 64px;
+  display: block;
+  margin: 0 auto 32px auto;
+}
+
+.author-info {
+  font-size: 14px;
+  color: #8C8C8C;
+  margin-bottom: 48px;
+}
+
+.navigation {
+  list-style: none;
+}
+
+.navigation-item {
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  color: #333;
+  margin-bottom: 16px;
+  cursor: pointer;
+}
+
+.navigation-item:hover {
+  color: #5AC18E;
+}
+
+.articles-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.articles {
+  width: 600px;
+  margin: 0 64px;
+}
+
+.article-info {
+  margin-bottom: 8px;
+}
+
+.article-info > * {
+  display: inline-block;
+}
+
+.article-info p {
+  font-size: 14px;
+  color: #8C8C8C;
+  text-transform: uppercase;
+}
+
+.article-info :not(:last-child) {
+  margin-right: 16px;
+}
+
+.article-info-divider {
+  height: 10px;
+  width: 1px;
+  background-color: #8C8C8C;
+}
+
+.article-paragraph {
+  margin-bottom: 16px;
+  color: rgba(51, 51, 51, 0.85);
+  font-weight: 300;
+}
+
+.article-heading {
+  font: 38px bold Raleway, sans-serif;
+  letter-spacing: 0.05em;
+  color: #5AC18E;
+  margin-bottom: 16px;
+}
+
+.article-image {
+  width: 100%;
+  max-height: 600px;
+  margin: 32px 0;
+}
+
+.divider {
+  width: 100%;
+  height: 1px;
+  margin: 16px 0 48px 0;
+  background-color: #8C8C8C;
+}
